@@ -1,6 +1,3 @@
-/**
- * Class that represents a single Movie object
- */
 public class Movie
 {
     private String title;
@@ -31,7 +28,9 @@ public class Movie
         this.year = year;
         this.revenue = revenue;
     }
+    public Movie(){
 
+    }
     public String getTitle()
     {
         return title;
